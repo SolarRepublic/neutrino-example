@@ -1,0 +1,17 @@
+{
+	"name": "neutrino-example",
+	"private": true,
+	"version": "0.0.1",
+	"description": "",
+	"type": "module",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "tsc && tsc-esm-fix --target dist",
+		"dev": "tsc -w"
+	},
+	"dependencies": {
+		"@blake.regalia/belt": "^0.31.1",
+		"@solar-republic/cosmos-grpc": "^0.13.0",
+		"@solar-republic/neutrino": "^1.0.6"
+	}
+}

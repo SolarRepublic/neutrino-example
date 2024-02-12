@@ -1,0 +1,48 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+
+		"outDir": "dist",
+
+		"sourceMap": true,
+		"newLine": "lf",
+		"allowJs": true,
+		"moduleResolution": "Bundler",
+		"forceConsistentCasingInFileNames": true,
+		"verbatimModuleSyntax": true,
+		"target": "ES2022",
+		"module": "ES2022",
+
+		"lib": [
+			"ES2022",
+			"DOM",
+			"DOM.Iterable",
+			"WebWorker"
+		],
+
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"skipDefaultLibCheck": true,
+		"exactOptionalPropertyTypes": true,
+		"noPropertyAccessFromIndexSignature": true,
+
+		// type checking and type safety
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"strict": true,
+		"strictNullChecks": true,
+
+		// intentionally disabled
+		"noUncheckedIndexedAccess": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+
+		// prevent truncation of types in intellisense
+		"noErrorTruncation": true
+	},
+
+	"include": [
+		"src/**/*.ts",
+	],
+}
